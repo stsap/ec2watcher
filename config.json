@@ -1,0 +1,20 @@
+{
+    "aws": {
+    	"AWSAccessKeyId": "",
+	    "SecretAccessKey": ""
+    },
+    "alert": {
+        "sasl": {
+            "host": "smtp.gmail.com",
+            "port": 465,
+            "username": "user@gmail.com",
+            "password": "mailpassword"
+        },
+        "from": "dummy@sen.der",
+        "to": [
+            "dummy@recie.ver"
+        ],
+        "subject": "[ec2watcher] running instance report.",
+        "message": "%mes%"
+    }
+}
